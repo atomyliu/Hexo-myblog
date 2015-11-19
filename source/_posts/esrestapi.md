@@ -11,6 +11,7 @@ curl 'http://localhost:9200/_aliases?pretty=1'
 ```
 curl 'http://localhost:9200/_stats?pretty=1'
 ```
+<!--more-->
 列出集群索引
 ```
 curl  'http://127.0.0.1:9200/_cat/indices?pretty=1'
@@ -60,10 +61,10 @@ curl -XPOST 'http://localhost:9200/_cluster/nodes/nodeId1,nodeId2/_shutdown'
 curl -XPOST 'http://localhost:9200/_cluster/nodes/_local/_shutdown?delay=10s'
 ```
 ---
-在Elasticsearch集群中可以监控统计很多信息，集群健康(cluster health)。ES中用三种颜色状态表示:green,yellow,red.
-`Green`：所有主分片和副本分片都可用
-`Yellow`：所有主分片可用，但不是所有副本分片都可用
-`Red`：不是所有的主分片都可用
+在Elasticsearch集群中可以监控统计很多信息，集群健康(cluster health)。ES中用三种颜色状态表示:green,yellow,red.</br>
+`Green`：所有主分片和副本分片都可用</br>
+`Yellow`：所有主分片可用，但不是所有副本分片都可用</br>
+`Red`：不是所有的主分片都可用</br>
 
 ---
 一些安全性的设置

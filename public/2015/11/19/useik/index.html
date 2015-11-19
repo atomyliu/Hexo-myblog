@@ -1,0 +1,190 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>ElasticSearch使用elasticsearch-analysis-ik | atomyliu&#39;s blog</title>
+  <meta name="author" content="AtomyLiu">
+  
+  <meta name="description" content="ElasticSearch使用elasticsearch-analysis-ik感谢Medcl带来的ik分词插件。为什么要用ik?因为Elasticsearch本身不支持中文分词，使用默认的解析器会把中文分解成单个字，查询的时候很不方便。">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="ElasticSearch使用elasticsearch-analysis-ik"/>
+  <meta property="og:site_name" content="atomyliu&#39;s blog"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  <link href="/favicon.png" rel="icon">
+  <link rel="alternate" href="/atom.xml" title="atomyliu&#39;s blog" type="application/atom+xml">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  
+
+</head>
+
+
+<body>
+  <header id="header" class="inner"><div class="alignleft">
+  <h1><a href="/">atomyliu&#39;s blog</a></h1>
+  <h2><a href="/"></a></h2>
+</div>
+<nav id="main-nav" class="alignright">
+  <ul>
+    
+      <li><a href="/">Home</a></li>
+    
+      <li><a href="/archives">Archives</a></li>
+    
+  </ul>
+  <div class="clearfix"></div>
+</nav>
+<div class="clearfix"></div></header>
+  <div id="content" class="inner">
+    <div id="main-col" class="alignleft"><div id="wrapper"><article class="elasticsearch">
+  
+  <div class="post-content">
+    <header>
+      
+        <div class="icon"></div>
+        <time datetime="2015-11-19T08:31:48.000Z"><a href="/2015/11/19/useik/">2015-11-19</a></time>
+      
+      
+  
+    <h1 class="title">ElasticSearch使用elasticsearch-analysis-ik</h1>
+  
+
+    </header>
+    <div class="entry">
+      
+        <h3 id="ElasticSearch使用elasticsearch-analysis-ik">ElasticSearch使用elasticsearch-analysis-ik</h3><p>感谢Medcl带来的ik分词插件。<br><br>为什么要用ik?<br><br>因为Elasticsearch本身不支持中文分词，使用默认的解析器会把中文分解成单个字，查询的时候很不方便。<br><a id="more"></a></p>
+<h4 id="下载ik插件">下载ik插件</h4><figure class="highlight groovy"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">https:</span><span class="comment">//github.com/medcl/elasticsearch-analysis-ik</span></span><br></pre></td></tr></table></figure>
+<h4 id="Maven打包，生成jar包">Maven打包，生成jar包</h4><figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mvn clean <span class="package"><span class="keyword">package</span></span></span><br></pre></td></tr></table></figure>
+<h3 id="安装插件">安装插件</h3><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">plugin —<span class="operator"><span class="keyword">install</span> analysis-ik —<span class="keyword">url</span> <span class="keyword">file</span>:///#&#123;project_path&#125;/elasticsearch-analysis-ik/target/releases/elasticsearch-analysis-ik-<span class="number">1.4</span><span class="number">.0</span>.zip</span></span><br></pre></td></tr></table></figure>
+<p>其实这种方式就是将jar包拷贝到<code>elasticsearch/plugins</code>目录下。<br><img src="ik01.png"><br>然后，将<code>elasticsearch-analysis-ik-master\config\ik</code>目录复制到<code>elasticsearch\config</code>目录中。<br>修改<code>elasticsearch/config/elasticsearch.yml</code>文件，在最下方添加：<br><figure class="highlight fsharp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">################################## ik ################################</span><br><span class="line">index:</span><br><span class="line">  analysis:</span><br><span class="line">    analyzer:</span><br><span class="line">      ik:</span><br><span class="line">          alias: [ik_analyzer]</span><br><span class="line">          <span class="class"><span class="keyword">type</span>: <span class="title">org</span>.<span class="title">elasticsearch</span>.<span class="title">index</span>.<span class="title">analysis</span>.<span class="title">IkAnalyzerProvider</span></span></span><br><span class="line">          char_filter: html_strip</span><br><span class="line">      ik_max_word:</span><br><span class="line">          <span class="class"><span class="keyword">type</span>: <span class="title">ik</span></span></span><br><span class="line">          use_smart: <span class="keyword">false</span></span><br><span class="line">      ik_smart:</span><br><span class="line">          <span class="class"><span class="keyword">type</span>: <span class="title">ik</span></span></span><br><span class="line">          use_smart: <span class="keyword">true</span></span><br><span class="line">    tokenizer:</span><br><span class="line">      ik_smart:</span><br><span class="line">          <span class="class"><span class="keyword">type</span>: <span class="title">ik</span></span></span><br><span class="line">          use_smart: <span class="keyword">true</span></span><br></pre></td></tr></table></figure></p>
+<p>启动elasticsearch服务，至此ik插件就完成安装了。</p>
+
+      
+    </div>
+    <footer>
+      
+        
+        
+  
+  <div class="tags">
+    <a href="/tags/elasticsearch/">elasticsearch</a>, <a href="/tags/ik/">ik</a>, <a href="/tags/plugin/">plugin</a>, <a href="/tags/分词/">分词</a>
+  </div>
+
+        
+  <div class="addthis addthis_toolbox addthis_default_style">
+    
+      <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+    
+    
+      <a class="addthis_button_tweet"></a>
+    
+    
+      <a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+    
+    
+      <a class="addthis_button_pinterest_pinit" pi:pinit:layout="horizontal"></a>
+    
+    <a class="addthis_counter addthis_pill_style"></a>
+  </div>
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js"></script>
+
+      
+      <div class="clearfix"></div>
+    </footer>
+  </div>
+</article>
+
+
+<section id="comment">
+  <h1 class="title">留言</h1>
+
+  
+      <div id="fb-root"></div>
+<script>
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=123456789012345";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
+
+<div class="fb-comments" data-href="http://yoursite.com/2015/11/19/useik/index.html" data-num-posts="5" data-width="840" data-colorscheme="light"></div>
+      
+  
+</section>
+
+</div></div>
+    <aside id="sidebar" class="alignright">
+  <div class="search">
+  <form action="//google.com/search" method="get" accept-charset="utf-8">
+    <input type="search" name="q" results="0" placeholder="搜索">
+    <input type="hidden" name="q" value="site:yoursite.com">
+  </form>
+</div>
+
+  
+
+  
+<div class="widget tag">
+  <h3 class="title">标签</h3>
+  <ul class="entry">
+  
+    <li><a href="/tags/REST/">REST</a><small>1</small></li>
+  
+    <li><a href="/tags/api/">api</a><small>1</small></li>
+  
+    <li><a href="/tags/bigdesk/">bigdesk</a><small>1</small></li>
+  
+    <li><a href="/tags/elasticsearch/">elasticsearch</a><small>5</small></li>
+  
+    <li><a href="/tags/head/">head</a><small>1</small></li>
+  
+    <li><a href="/tags/ik/">ik</a><small>1</small></li>
+  
+    <li><a href="/tags/kopf/">kopf</a><small>1</small></li>
+  
+    <li><a href="/tags/pinyin/">pinyin</a><small>1</small></li>
+  
+    <li><a href="/tags/plugin/">plugin</a><small>3</small></li>
+  
+    <li><a href="/tags/分词/">分词</a><small>2</small></li>
+  
+  </ul>
+</div>
+
+</aside>
+    <div class="clearfix"></div>
+  </div>
+  <footer id="footer" class="inner"><div class="alignleft">
+  
+  &copy; 2015 AtomyLiu
+  
+</div>
+<div class="clearfix"></div></footer>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+</body>
+</html>

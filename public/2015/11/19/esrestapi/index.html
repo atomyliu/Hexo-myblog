@@ -7,8 +7,7 @@
   <meta name="author" content="AtomyLiu">
   
   <meta name="description" content="列出索引名称1curl &#39;http://localhost:9200/_aliases?pretty=1&#39;
-查看所有索引状态1curl &#39;http://localhost:9200/_stats?pretty=1&#39;
-列出集群索引1curl  &#39;http://127.0.0.1:9200/_cat/i">
+查看所有索引状态1curl &#39;http://localhost:9200/_stats?pretty=1&#39;">
   
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -64,6 +63,7 @@
       
         <p>列出索引名称<br><figure class="highlight rust"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl <span class="string">'http</span>:<span class="comment">//localhost:9200/_aliases?pretty=1'</span></span><br></pre></td></tr></table></figure></p>
 <p>查看所有索引状态<br><figure class="highlight rust"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl <span class="string">'http</span>:<span class="comment">//localhost:9200/_stats?pretty=1'</span></span><br></pre></td></tr></table></figure></p>
+<a id="more"></a>
 <p>列出集群索引<br><figure class="highlight rust"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl  <span class="string">'http</span>:<span class="comment">//127.0.0.1:9200/_cat/indices?pretty=1'</span></span><br></pre></td></tr></table></figure></p>
 <p>查看索引大小<br><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">curl</span> <span class="string">'http://localhost:9200/_cat/indices?bytes=kb'</span></span><br></pre></td></tr></table></figure></p>
 <p>获取所有mapping<br><figure class="highlight rust"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl -XGET <span class="string">'http</span>:<span class="comment">//localhost:9200/_mapping?pretty=1'</span></span><br></pre></td></tr></table></figure></p>
@@ -77,7 +77,7 @@
 <p>关闭指定节点<br><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">curl</span> -XPOST <span class="string">'http://localhost:9200/_cluster/nodes/nodeId1,nodeId2/_shutdown'</span></span><br></pre></td></tr></table></figure></p>
 <p>延迟关闭<br><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">curl</span> -XPOST <span class="string">'http://localhost:9200/_cluster/nodes/_local/_shutdown?delay=10s'</span></span><br></pre></td></tr></table></figure></p>
 <hr>
-<p>在Elasticsearch集群中可以监控统计很多信息，集群健康(cluster health)。ES中用三种颜色状态表示:green,yellow,red.<br><code>Green</code>：所有主分片和副本分片都可用<br><code>Yellow</code>：所有主分片可用，但不是所有副本分片都可用<br><code>Red</code>：不是所有的主分片都可用</p>
+<p>在Elasticsearch集群中可以监控统计很多信息，集群健康(cluster health)。ES中用三种颜色状态表示:green,yellow,red.<br><br><code>Green</code>：所有主分片和副本分片都可用<br><br><code>Yellow</code>：所有主分片可用，但不是所有副本分片都可用<br><br><code>Red</code>：不是所有的主分片都可用<br></p>
 <hr>
 <p>一些安全性的设置<br><figure class="highlight sqf"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">action</span>.disable_close_all_indices: <span class="literal">true</span>     <span class="preprocessor">#禁止关闭索引</span></span><br><span class="line"><span class="built_in">action</span>.disable_delete_all_indices: <span class="literal">true</span>    <span class="preprocessor">#禁止删除索引</span></span><br><span class="line"><span class="built_in">action</span>.disable_shutdown: <span class="literal">true</span>              <span class="preprocessor">#禁止关闭节点</span></span><br></pre></td></tr></table></figure></p>
 
@@ -159,13 +159,19 @@
   
     <li><a href="/tags/bigdesk/">bigdesk</a><small>1</small></li>
   
-    <li><a href="/tags/elasticsearch/">elasticsearch</a><small>3</small></li>
+    <li><a href="/tags/elasticsearch/">elasticsearch</a><small>5</small></li>
   
     <li><a href="/tags/head/">head</a><small>1</small></li>
   
+    <li><a href="/tags/ik/">ik</a><small>1</small></li>
+  
     <li><a href="/tags/kopf/">kopf</a><small>1</small></li>
   
-    <li><a href="/tags/plugin/">plugin</a><small>1</small></li>
+    <li><a href="/tags/pinyin/">pinyin</a><small>1</small></li>
+  
+    <li><a href="/tags/plugin/">plugin</a><small>3</small></li>
+  
+    <li><a href="/tags/分词/">分词</a><small>2</small></li>
   
   </ul>
 </div>
