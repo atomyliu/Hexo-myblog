@@ -1,7 +1,7 @@
 layout: elasticsearch
 title: elasticsearch 插件安装
 date: 2015-11-19 11:06:39
-tags: elasticsearch
+tags: [elasticsearch,plugin,head,bigdesk,kopf]
 ---
 Elasticsearch可扩展性很强，插件也相当完善，下面介绍几个常用插件的安装和使用。
 ### elasticsearch-head 插件
@@ -33,3 +33,6 @@ Elasticsearch可扩展性很强，插件也相当完善，下面介绍几个常�
 比如中文分词插件：elasticsearch-analysis-ik
 比如拼音分词插件：elasticsearch-analysis-pinyin
 可以同步数据的river插件等。
+---
+在一款叫marvel的插件中，包含了一个名为sense的编辑器，可以方便的进行DSL的编写， 以后的内容中，我们将以sense的形式展现DSL代码内容。
+<img src="sense.png" />
