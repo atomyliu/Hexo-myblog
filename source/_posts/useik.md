@@ -3,7 +3,6 @@ title: ElasticSearch使用elasticsearch-analysis-ik
 date: 2015-11-19 16:31:48
 tags: [elasticsearch,plugin,ik,分词]
 ---
-### ElasticSearch使用elasticsearch-analysis-ik
 感谢Medcl带来的ik分词插件。</br>
 为什么要用ik?</br>
 因为Elasticsearch本身不支持中文分词，使用默认的解析器会把中文分解成单个字，查询的时候很不方便。
