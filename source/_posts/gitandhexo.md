@@ -1,7 +1,7 @@
 layout: hexo
 title: 使用Git+Hexo搭建自己的博客系统
 date: 2015-12-03 11:17:10
-tags:[git,hexo,nodejs]
+tags: [git,hexo,nodejs]
 ---
 ## 准备工具
 1. 一个操作系统：windows，Linux，mac都行
