@@ -75,7 +75,7 @@ deploy:
 Plugins:
 - hexo-generator-feed
 - hexo-generator-sitemap
-
+- hexo-tag-bootstrap
 #Feed Atom
 feed:
   type: atom
