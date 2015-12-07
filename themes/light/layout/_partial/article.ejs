@@ -11,10 +11,12 @@
       <%- partial('post/title') %>
     </header>
     <div class="entry">
-      <% if (item.excerpt && index){ %>
-        <%- item.excerpt %>
-      <% } else { %>
-        <%- item.content %>
+      <% if (item.excerpt && index){ %>   <!--01-->
+      <%- item.excerpt %>
+      <% } else { if (item.toc !== false) {%>   <!--02-->
+      <%- partial('post/toc') %>
+      <% } %>
+      <%- item.content %>
       <% } %>
     </div>
     <footer>

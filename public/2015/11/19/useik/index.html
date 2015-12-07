@@ -59,8 +59,13 @@
 
     </header>
     <div class="entry">
+         <!--02-->
+      <div id="toc" class="toc-article">
+    <div class="toc-title">目录</div>
+    <ol class="toc"><li class="toc-item toc-level-4"><a class="toc-link" href="#下载ik插件"><span class="toc-text">下载ik插件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Maven打包，生成jar包"><span class="toc-text">Maven打包，生成jar包</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#安装插件"><span class="toc-text">安装插件</span></a>
+</div>
       
-        <p>感谢Medcl带来的ik分词插件。<br><br>为什么要用ik?<br><br>因为Elasticsearch本身不支持中文分词，使用默认的解析器会把中文分解成单个字，查询的时候很不方便。<br><a id="more"></a></p>
+      <p>感谢Medcl带来的ik分词插件。<br><br>为什么要用ik?<br><br>因为Elasticsearch本身不支持中文分词，使用默认的解析器会把中文分解成单个字，查询的时候很不方便。<br><a id="more"></a></p>
 <h4 id="下载ik插件">下载ik插件</h4><figure class="highlight groovy"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">https:</span><span class="comment">//github.com/medcl/elasticsearch-analysis-ik</span></span><br></pre></td></tr></table></figure>
 <h4 id="Maven打包，生成jar包">Maven打包，生成jar包</h4><figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mvn clean <span class="package"><span class="keyword">package</span></span></span><br></pre></td></tr></table></figure>
 <h3 id="安装插件">安装插件</h3><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">plugin —<span class="operator"><span class="keyword">install</span> analysis-ik —<span class="keyword">url</span> <span class="keyword">file</span>:///#&#123;project_path&#125;/elasticsearch-analysis-ik/target/releases/elasticsearch-analysis-ik-<span class="number">1.4</span><span class="number">.0</span>.zip</span></span><br></pre></td></tr></table></figure>

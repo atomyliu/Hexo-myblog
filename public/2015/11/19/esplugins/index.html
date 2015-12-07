@@ -60,8 +60,13 @@ elasticsearch-head 插件首先进入 /elasticsearch/bin 目录，使用命令�
 
     </header>
     <div class="entry">
+         <!--02-->
+      <div id="toc" class="toc-article">
+    <div class="toc-title">目录</div>
+    <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#elasticsearch-head_插件"><span class="toc-text">elasticsearch-head 插件</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#bigdesk_插件"><span class="toc-text">bigdesk 插件</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#kopf_插件"><span class="toc-text">kopf 插件</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#"><span class="toc-text"></span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#可以同步数据的river插件等。"><span class="toc-text">可以同步数据的river插件等。</span></a>
+</div>
       
-        <p>Elasticsearch可扩展性很强，插件也相当完善，下面介绍几个常用插件的安装和使用。</p>
+      <p>Elasticsearch可扩展性很强，插件也相当完善，下面介绍几个常用插件的安装和使用。</p>
 <h3 id="elasticsearch-head_插件">elasticsearch-head 插件</h3><p>首先进入 /elasticsearch/bin 目录，使用命令行：<br><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./plugin -<span class="operator"><span class="keyword">install</span> mobz/elasticsearch-<span class="keyword">head</span></span></span><br></pre></td></tr></table></figure></p>
 <a id="more"></a>
 <p>安装完成后在 /elasticsearch/plugins目录下看到head的文件夹<br>在浏览器中输入<code>http://localhost:9200/_plugin/head/</code>可看到：<br><img src="head01.png"></p>

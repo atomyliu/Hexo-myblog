@@ -38,7 +38,7 @@ git clone https://github.com/hexojs/hexo-theme-light.git themes/light
 ```
 完成后，修改`_config.yml`配置文件中的`theme`属性，将后面的值改为`light`。再运行上面本地查看博客的命令即可查看到新主题的博客。<br />
 在`_config.yml`配置文件中还有诸多参数设置，详情可以查阅官网说明文档。
----
+<br />
 ## 利用git创建博客
 注册账号不做演示。
 ## 创建Repository

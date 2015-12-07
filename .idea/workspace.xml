@@ -2,65 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d89ce83-8163-4bca-912b-d06bfee8c3e4" name="默认的" comment="默认的">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/light/layout/_partial/post/toc.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/light/source/css/_partial/toc.styl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/hexo-deployer-git/package.json" afterPath="$PROJECT_DIR$/node_modules/hexo-deployer-git/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/2015/11/18/elasticsearch/index.html" afterPath="$PROJECT_DIR$/public/2015/11/18/elasticsearch/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/2015/11/19/esplugins/index.html" afterPath="$PROJECT_DIR$/public/2015/11/19/esplugins/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/2015/11/19/esrestapi/index.html" afterPath="$PROJECT_DIR$/public/2015/11/19/esrestapi/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/2015/11/19/howtosearch/index.html" afterPath="$PROJECT_DIR$/public/2015/11/19/howtosearch/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/2015/11/19/useik/index.html" afterPath="$PROJECT_DIR$/public/2015/11/19/useik/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/2015/11/19/usepinyin/index.html" afterPath="$PROJECT_DIR$/public/2015/11/19/usepinyin/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/2015/11/20/useikconfig/index.html" afterPath="$PROJECT_DIR$/public/2015/11/20/useikconfig/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/style.css" afterPath="$PROJECT_DIR$/public/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/gitandhexo.md" afterPath="$PROJECT_DIR$/source/_posts/gitandhexo.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/howtosearch.md" afterPath="$PROJECT_DIR$/source/_posts/howtosearch.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/landscape/Gruntfile.js" afterPath="$PROJECT_DIR$/themes/landscape/Gruntfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/landscape/LICENSE" afterPath="$PROJECT_DIR$/themes/landscape/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/landscape/README.md" afterPath="$PROJECT_DIR$/themes/landscape/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/landscape/_config.yml" afterPath="$PROJECT_DIR$/themes/landscape/_config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/landscape/layout/_partial/after-footer.ejs" afterPath="$PROJECT_DIR$/themes/landscape/layout/_partial/after-footer.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/landscape/layout/_partial/archive-post.ejs" afterPath="$PROJECT_DIR$/themes/landscape/layout/_partial/archive-post.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/landscape/layout/_partial/archive.ejs" afterPath="$PROJECT_DIR$/themes/landscape/layout/_partial/archive.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/landscape/layout/_partial/article.ejs" afterPath="$PROJECT_DIR$/themes/landscape/layout/_partial/article.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/landscape/layout/_partial/footer.ejs" afterPath="$PROJECT_DIR$/themes/landscape/layout/_partial/footer.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/landscape/layout/_partial/google-analytics.ejs" afterPath="$PROJECT_DIR$/themes/landscape/layout/_partial/google-analytics.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/landscape/layout/_partial/head.ejs" afterPath="$PROJECT_DIR$/themes/landscape/layout/_partial/head.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/landscape/layout/_partial/header.ejs" afterPath="$PROJECT_DIR$/themes/landscape/layout/_partial/header.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/landscape/layout/_partial/mobile-nav.ejs" afterPath="$PROJECT_DIR$/themes/landscape/layout/_partial/mobile-nav.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/landscape/layout/_partial/post/category.ejs" afterPath="$PROJECT_DIR$/themes/landscape/layout/_partial/post/category.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/landscape/layout/_partial/post/date.ejs" afterPath="$PROJECT_DIR$/themes/landscape/layout/_partial/post/date.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/landscape/layout/_partial/post/gallery.ejs" afterPath="$PROJECT_DIR$/themes/landscape/layout/_partial/post/gallery.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/landscape/layout/_partial/post/nav.ejs" afterPath="$PROJECT_DIR$/themes/landscape/layout/_partial/post/nav.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/landscape/layout/_partial/post/tag.ejs" afterPath="$PROJECT_DIR$/themes/landscape/layout/_partial/post/tag.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/landscape/layout/_partial/post/title.ejs" afterPath="$PROJECT_DIR$/themes/landscape/layout/_partial/post/title.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/landscape/layout/_partial/sidebar.ejs" afterPath="$PROJECT_DIR$/themes/landscape/layout/_partial/sidebar.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/landscape/layout/_widget/archive.ejs" afterPath="$PROJECT_DIR$/themes/landscape/layout/_widget/archive.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/landscape/layout/_widget/category.ejs" afterPath="$PROJECT_DIR$/themes/landscape/layout/_widget/category.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/landscape/layout/_widget/recent_posts.ejs" afterPath="$PROJECT_DIR$/themes/landscape/layout/_widget/recent_posts.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/landscape/layout/_widget/tag.ejs" afterPath="$PROJECT_DIR$/themes/landscape/layout/_widget/tag.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/landscape/layout/_widget/tagcloud.ejs" afterPath="$PROJECT_DIR$/themes/landscape/layout/_widget/tagcloud.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/landscape/layout/layout.ejs" afterPath="$PROJECT_DIR$/themes/landscape/layout/layout.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/landscape/package.json" afterPath="$PROJECT_DIR$/themes/landscape/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/landscape/scripts/fancybox.js" afterPath="$PROJECT_DIR$/themes/landscape/scripts/fancybox.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/landscape/source/css/_extend.styl" afterPath="$PROJECT_DIR$/themes/landscape/source/css/_extend.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/landscape/source/css/_partial/archive.styl" afterPath="$PROJECT_DIR$/themes/landscape/source/css/_partial/archive.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/landscape/source/css/_partial/article.styl" afterPath="$PROJECT_DIR$/themes/landscape/source/css/_partial/article.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/landscape/source/css/_partial/comment.styl" afterPath="$PROJECT_DIR$/themes/landscape/source/css/_partial/comment.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/landscape/source/css/_partial/footer.styl" afterPath="$PROJECT_DIR$/themes/landscape/source/css/_partial/footer.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/landscape/source/css/_partial/header.styl" afterPath="$PROJECT_DIR$/themes/landscape/source/css/_partial/header.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/landscape/source/css/_partial/highlight.styl" afterPath="$PROJECT_DIR$/themes/landscape/source/css/_partial/highlight.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/landscape/source/css/_partial/mobile.styl" afterPath="$PROJECT_DIR$/themes/landscape/source/css/_partial/mobile.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/landscape/source/css/_partial/sidebar-aside.styl" afterPath="$PROJECT_DIR$/themes/landscape/source/css/_partial/sidebar-aside.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/landscape/source/css/_partial/sidebar-bottom.styl" afterPath="$PROJECT_DIR$/themes/landscape/source/css/_partial/sidebar-bottom.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/landscape/source/css/_partial/sidebar.styl" afterPath="$PROJECT_DIR$/themes/landscape/source/css/_partial/sidebar.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/landscape/source/css/_util/grid.styl" afterPath="$PROJECT_DIR$/themes/landscape/source/css/_util/grid.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/landscape/source/css/_util/mixin.styl" afterPath="$PROJECT_DIR$/themes/landscape/source/css/_util/mixin.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/landscape/source/css/_variables.styl" afterPath="$PROJECT_DIR$/themes/landscape/source/css/_variables.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/landscape/source/css/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/themes/landscape/source/css/fonts/fontawesome-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/landscape/source/css/style.styl" afterPath="$PROJECT_DIR$/themes/landscape/source/css/style.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/landscape/source/fancybox/helpers/jquery.fancybox-buttons.css" afterPath="$PROJECT_DIR$/themes/landscape/source/fancybox/helpers/jquery.fancybox-buttons.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/landscape/source/fancybox/helpers/jquery.fancybox-buttons.js" afterPath="$PROJECT_DIR$/themes/landscape/source/fancybox/helpers/jquery.fancybox-buttons.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/landscape/source/fancybox/helpers/jquery.fancybox-media.js" afterPath="$PROJECT_DIR$/themes/landscape/source/fancybox/helpers/jquery.fancybox-media.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/landscape/source/fancybox/helpers/jquery.fancybox-thumbs.css" afterPath="$PROJECT_DIR$/themes/landscape/source/fancybox/helpers/jquery.fancybox-thumbs.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/landscape/source/fancybox/helpers/jquery.fancybox-thumbs.js" afterPath="$PROJECT_DIR$/themes/landscape/source/fancybox/helpers/jquery.fancybox-thumbs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/landscape/source/fancybox/jquery.fancybox.css" afterPath="$PROJECT_DIR$/themes/landscape/source/fancybox/jquery.fancybox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/landscape/source/fancybox/jquery.fancybox.js" afterPath="$PROJECT_DIR$/themes/landscape/source/fancybox/jquery.fancybox.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/landscape/source/fancybox/jquery.fancybox.pack.js" afterPath="$PROJECT_DIR$/themes/landscape/source/fancybox/jquery.fancybox.pack.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/landscape/source/js/script.js" afterPath="$PROJECT_DIR$/themes/landscape/source/js/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/light/layout/_partial/article.ejs" afterPath="$PROJECT_DIR$/themes/light/layout/_partial/article.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/light/source/css/style.styl" afterPath="$PROJECT_DIR$/themes/light/source/css/style.styl" />
     </list>
     <ignored path="Hexo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -89,7 +48,7 @@
         <entry file="file://$PROJECT_DIR$/source/_posts/vandv.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor vertical-scroll-proportion="0.14739884">
+              <first_editor vertical-scroll-proportion="0.0">
                 <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="11" />
                 <folding />
               </first_editor>
@@ -102,7 +61,7 @@
         <entry file="file://$PROJECT_DIR$/source/_posts/zookeeper1.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor vertical-scroll-proportion="0.8352601">
+              <first_editor vertical-scroll-proportion="0.0">
                 <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
                 <folding />
               </first_editor>
@@ -115,8 +74,8 @@
         <entry file="file://$PROJECT_DIR$/source/_posts/howtosearch.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor vertical-scroll-proportion="0.17196532">
-                <caret line="7" column="6" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="6" />
+              <first_editor vertical-scroll-proportion="0.0">
+                <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -124,12 +83,65 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6392758">
-              <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="76" column="24" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="toc.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/light/layout/_partial/post/toc.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="article.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/light/layout/_partial/article.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="21" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.styl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/light/source/css/style.styl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="toc.styl" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/themes/light/source/css/_partial/toc.styl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.78612715">
+              <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gitandhexo.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/_posts/gitandhexo.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor vertical-scroll-proportion="0.0">
+                <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -154,11 +166,15 @@
         <option value="$PROJECT_DIR$/source/_posts/useik.md" />
         <option value="$PROJECT_DIR$/source/_posts/useikconfig.md" />
         <option value="$PROJECT_DIR$/source/_posts/usepinyin.md" />
-        <option value="$PROJECT_DIR$/source/_posts/gitandhexo.md" />
         <option value="$PROJECT_DIR$/source/_posts/vandv.md" />
         <option value="$PROJECT_DIR$/source/_posts/zookeeper1.md" />
         <option value="$PROJECT_DIR$/source/_posts/howtosearch.md" />
         <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/themes/light/layout/_partial/post/toc.ejs" />
+        <option value="$PROJECT_DIR$/themes/light/layout/_partial/article.ejs" />
+        <option value="$PROJECT_DIR$/themes/light/source/css/style.styl" />
+        <option value="$PROJECT_DIR$/source/_posts/gitandhexo.md" />
+        <option value="$PROJECT_DIR$/themes/light/source/css/_partial/toc.styl" />
       </list>
     </option>
   </component>
@@ -214,8 +230,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -254,7 +268,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -769,7 +785,10 @@
       <workItem from="1448855998922" duration="1190000" />
       <workItem from="1449018644476" duration="8500000" />
       <workItem from="1449101970477" duration="5576000" />
-      <workItem from="1449115205676" duration="9773000" />
+      <workItem from="1449115205676" duration="10927000" />
+      <workItem from="1449129985199" duration="3094000" />
+      <workItem from="1449448569215" duration="1792000" />
+      <workItem from="1449450476294" duration="627000" />
     </task>
     <task id="LOCAL-00001" summary="默认的">
       <created>1447830156725</created>
@@ -819,11 +838,17 @@
       <option name="project" value="LOCAL" />
       <updated>1449125968107</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="默认的">
+      <created>1449128346971</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1449128346971</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71219000" />
+    <option name="totallyTimeSpent" value="77886000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="0" />
@@ -831,15 +856,13 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.49713466" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5028653" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295129" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14541547" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24140401" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -851,11 +874,13 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.49713466" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="控制板" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -886,12 +911,29 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/source/_posts/esplugins.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor vertical-scroll-proportion="0.0">
+            <caret line="3" column="46" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="46" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="66" column="12" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/elasticsearch.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor vertical-scroll-proportion="0.0">
             <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="11" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -902,7 +944,6 @@
         <state split_layout="SPLIT">
           <first_editor vertical-scroll-proportion="0.0">
             <caret line="56" column="30" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -924,7 +965,6 @@
         <state split_layout="SPLIT">
           <first_editor vertical-scroll-proportion="0.0">
             <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -935,7 +975,6 @@
         <state split_layout="SPLIT">
           <first_editor vertical-scroll-proportion="0.0">
             <caret line="3" column="46" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="46" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -954,7 +993,6 @@
         <state split_layout="SPLIT">
           <first_editor vertical-scroll-proportion="0.0">
             <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="11" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -965,7 +1003,6 @@
         <state split_layout="SPLIT">
           <first_editor vertical-scroll-proportion="0.0">
             <caret line="56" column="30" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -987,7 +1024,6 @@
         <state split_layout="SPLIT">
           <first_editor vertical-scroll-proportion="0.0">
             <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -998,7 +1034,6 @@
         <state split_layout="SPLIT">
           <first_editor vertical-scroll-proportion="0.0">
             <caret line="3" column="46" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="46" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1017,70 +1052,6 @@
         <state split_layout="SPLIT">
           <first_editor vertical-scroll-proportion="0.0">
             <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="11" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/esrestapi.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor vertical-scroll-proportion="0.0">
-            <caret line="56" column="30" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/howtosearch.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor vertical-scroll-proportion="0.0">
-            <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/usepinyin.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor vertical-scroll-proportion="0.0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/esplugins.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor vertical-scroll-proportion="0.0">
-            <caret line="3" column="46" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="46" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="66" column="12" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/elasticsearch.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor vertical-scroll-proportion="0.0">
-            <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="11" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1091,7 +1062,6 @@
         <state split_layout="SPLIT">
           <first_editor vertical-scroll-proportion="0.0">
             <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1112,7 +1082,6 @@
         <state split_layout="SPLIT">
           <first_editor vertical-scroll-proportion="0.0">
             <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1123,7 +1092,6 @@
         <state split_layout="SPLIT">
           <first_editor vertical-scroll-proportion="0.0">
             <caret line="3" column="46" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="46" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1142,7 +1110,6 @@
         <state split_layout="SPLIT">
           <first_editor vertical-scroll-proportion="0.0">
             <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1226,7 +1193,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1235,7 +1201,6 @@
         <state split_layout="SPLIT">
           <first_editor vertical-scroll-proportion="0.12265512">
             <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1246,7 +1211,6 @@
         <state split_layout="SPLIT">
           <first_editor vertical-scroll-proportion="0.77922076">
             <caret line="64" column="6" selection-start-line="64" selection-start-column="6" selection-end-line="64" selection-end-column="6" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1262,7 +1226,6 @@
         <state split_layout="SPLIT">
           <first_editor vertical-scroll-proportion="0.34343433">
             <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="24" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1273,7 +1236,6 @@
         <state split_layout="SPLIT">
           <first_editor vertical-scroll-proportion="0.0981241">
             <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1284,7 +1246,6 @@
         <state split_layout="SPLIT">
           <first_editor vertical-scroll-proportion="0.31890333">
             <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="11" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1295,18 +1256,6 @@
         <state split_layout="SPLIT">
           <first_editor vertical-scroll-proportion="0.14718615">
             <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="11" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/gitandhexo.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor vertical-scroll-proportion="0.24531025">
-            <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="11" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1315,7 +1264,7 @@
     <entry file="file://$PROJECT_DIR$/source/_posts/vandv.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor vertical-scroll-proportion="0.14739884">
+          <first_editor vertical-scroll-proportion="0.0">
             <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="11" />
             <folding />
           </first_editor>
@@ -1327,14 +1276,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.57941836">
           <caret line="138" column="4" selection-start-line="138" selection-start-column="4" selection-end-line="138" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/zookeeper1.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor vertical-scroll-proportion="0.8352601">
+          <first_editor vertical-scroll-proportion="0.0">
             <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
             <folding />
           </first_editor>
@@ -1345,8 +1293,8 @@
     <entry file="file://$PROJECT_DIR$/source/_posts/howtosearch.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor vertical-scroll-proportion="0.17196532">
-            <caret line="7" column="6" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="6" />
+          <first_editor vertical-scroll-proportion="0.0">
+            <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1355,9 +1303,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6392758">
-          <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="76" column="24" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/light/layout/_partial/post/toc.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/light/layout/_partial/article.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/light/source/css/style.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/light/source/css/_partial/toc.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.78612715">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/gitandhexo.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor vertical-scroll-proportion="0.0">
+            <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
